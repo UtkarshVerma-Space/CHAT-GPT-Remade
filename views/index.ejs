@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+<div class="chatwindow">
+
+<!-- TEXT from API -->
+<div id="ansapi" class="api"><%= gptanswer %></div>
+
+
+
+<!-- TEXT from USER -->
+<div class="user"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- CHAT INPUT AND SEND BUTTON -->
+<form method="post" action="/">
+    <div class="options">
+        <input placeholder="Search Here" type="search" name="query" id="" required>
+        <button onclick="removeoldtext" id="go" type="submit">GO</button>
+    </div>
+</form>
+
+<script>
+
+function removeoldtext() {
+    document.getElementById("ansapi").innerHTML = none;
+}
+
+
+</script>
+
+
+
+
+</body>
+</html>
