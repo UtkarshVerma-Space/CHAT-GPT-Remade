@@ -55,7 +55,6 @@ app.post("/",function (req,res) {
   answer.splice(0, answer.length);
 
 
-
   async function getAiResponse(topic) {
     const openai = new OpenAIApi(configuration);
     const completion = await openai.createCompletion({

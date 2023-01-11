@@ -29,24 +29,45 @@
 
 
 
-<!-- CHAT INPUT AND SEND BUTTON -->
-<form method="post" action="/">
+
+  <!-- CHAT INPUT AND SEND BUTTON -->
+  <form method="post" action="/">
     <div class="options">
-        <input placeholder="Search Here" type="search" name="query" id="" required>
-        <button onclick="removeoldtext" id="go" type="submit">GO</button>
+      <input value="" class="output" placeholder="Search Here" type="search" name="query" id="" required>
+      
+
+<div class="buttonopot">
+    <button onclick="removeoldtext" id="go" type="submit">GO</button>
+   <div  onclick="startrec()" class="speechh"><img id="SPEECH" height="40px" src="/css/recognition.png" alt=""></div>
+    
+</div>
     </div>
-</form>
-
-<script>
-
-function removeoldtext() {
-    document.getElementById("ansapi").innerHTML = none;
-}
+  </form>
 
 
-</script>
 
 
+
+
+
+
+
+
+  <!-- SCRIPTS -->
+  <script>
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+<script src="/css/script.js"></script>
 
 
 </body>
