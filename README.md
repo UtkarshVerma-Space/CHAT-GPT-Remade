@@ -1,4 +1,4 @@
-# 💕 CHAT-GPT- REMADE WITH VOICE 💕
+# 💗CHAT-GPT 🖥️ - REMADE WITH VOICE 🖥️💗
 #### This is the new CHAT GPT APP. Here I am merging the power of CHAT GPT with VOICE [Text to speech and speech to text]. 
 
 ## Usage [How to run the app]
@@ -10,3 +10,6 @@
 ###### Open terminal/CMD in same folder and Run the command `npm install dotenv ejs nodemon openai require`
 
 
+## Must Read
+##### Speech Recognition only works in chrome dextop version as it is native feature of chrome. 
+##### 
